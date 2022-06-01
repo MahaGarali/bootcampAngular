@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ams';
+
+  formateur:string="Maha Garali";
+  bootcamp:string[]=["springboot", "angular", "agile", "devops"];
+  estHybride:boolean=true;
+  prix:number=450;
 }
